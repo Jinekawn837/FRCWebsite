@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+}
+
+.inner_header {
+  width: 1200px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #202020;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+  font-family: 'Press Start 2P';
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation li {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation li a {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family: 'Electrolize';
+  font-size: 16px;
+}
+
+.navigation li button {
+  border: none;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  background-color: #202020;
+  color: white;
+  font-family: 'Electrolize';
+  font-size: 16px;
+}
+
+.swap-on-hover {
+  position: relative;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.swap-on-hover img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 80px;
+}
+
+.swap-on-hover .swap-on-hover__front-image {
+  z-index: 9999;
+  transition: opacity 0.3s linear;
+  cursor: pointer;
+}
+
+.swap-on-hover:hover > .swap-on-hover__front-image {
+  opacity: 0;
+}
+
+body {
+  background-color: #101010;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  display: block;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: #101010;
+}
+
+.inner_footer {
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+  background-color: #101010;
+}
+
+.inner_footer .logo_container{
+  width: 35%;
+  float: left;
+  height: 100%;
+  display: block;
+}
+
+.inner_footer .logo_container h1{
+  font-family:  'Electrolize';
+  font-size: 22px;
+  color: white;
+  width: 100%;
+}
+
+.inner_footer .logo_container a{
+  font-family:  'Electrolize';
+  font-size: 16px;
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+}
+
+
+.inner_footer .footer_third{
+  width:calc(21.6666666667% - 20px);
+  margin-right: 10px;
+  float: left;
+  height: 100%;
+}
+
+.inner_footer .footer_third:last-child{
+  margin-right: 0;
+}
+
+.inner_footer .footer_third h1{
+  font-family:  'Electrolize';
+  font-size: 16px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner_footer .footer_third h3{
+  font-family:  'Electrolize';
+  font-size: 14px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form{
+  font-family:  'Electrolize';
+  font-size: 16px;
+  color: white;
+  padding:  10px 0;
+}
+
+ #subscribe{
+  font-family:  'Electrolize';
+  font-size: 16px;
+  color: black;
+}
+
+table {
+  border-spacing: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#table {
+  display: block;
+  margin-top: 20px;
+}
+
+th,
+td {
+  width: 400px;
+  text-align: center;
+  font-family: 'Electrolize', monospace;
+  color: white;
+  border: 3px solid white;
+  padding: 20px;
+}
+
+#filter {
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+  color: white;
+}
+
+.center {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+}
+
+.inner_center {
+  width: 800px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #101010;
+}
+
+.center button {
+  height: 100%;
+  display: table;
+  float: left;
+  font-family: 'Major Mono Display', monospace;
+  border: none;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  background-color: #101010;
+  font-weight: 100;
+  padding: 95px;
+}
+
+.centerHome {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+}
+
+.inner_centerHome {
+  width: 1200px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #101010;
+}
+
+.inner_centerHome form{
+  font-family:  'Electrolize';
+  font-size: 16px;
+  color: white;
+  padding:  10px 50px;
+}
+
+.centerHome h2 {
+  height: 100%;
+  display: table;
+  float: left;
+  font-family: 'Major Mono Display', monospace;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  background-color: #101010;
+  font-weight: 100;
+  padding: 45px;
+}
+
+.centerHome p {
+  height: 100%;
+  display: table;
+  float: left;
+  font-family: 'Electrolize', monospace;
+  color: white;
+  padding: 10px 50px;
+}

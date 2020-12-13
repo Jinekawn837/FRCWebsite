@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="items.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>FRC Store</title>
+  </head>
+  <body>
+    <!--header-->
+    <div class="header">
+      <div class="inner_header">
+        <div class="logo_container">
+          <a href="FRC_homepage.html">
+            <figure class="swap-on-hover">
+              <img
+                class="swap-on-hover__front-image"
+                src="images\FRC-Chicken.jpg"
+                alt="FRC Chicken Logo"
+              />
+              <img
+                class="swap-on-hover__back-image"
+                src="images\FRC-Angry-Chicken.jpg"
+                alt="FRC Chicken Logo"
+              />
+            </figure>
+          </a>
+        </div>
+
+        <ul class="navigation">
+          <!--<li><a href="FRC_store.html">All Items</a></li>
+                <li><a href="FRC_store.html">Apparel</a></li>
+                <li><a href="FRC_store.html">Merch</a></li>-->
+          <li><button onclick="filterAllItems()">All Items</button></li>
+          <li><button onclick="filterApparel('all')">Apparel</button></li>
+          <li><button onclick="filterMerch()">Merch</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <!--middle-->
+    <h2 id="filter">All items</h2>
+    <div class="center">
+      <div class="inner_center">
+        <button id="filterHoodies" onclick="filterApparel('hoodie')"></button>
+        <button id="filterSweaters" onclick="filterApparel('sweater')"></button>
+        <button id="filterTshirts" onclick="filterApparel('tshirt')"></button>
+      </div>
+    </div>
+
+    <div id="table_container"></div>
+    <script src="items.js"></script>
+
+    <!--Footer-->
+    <div class="footer">
+      <div class="inner_footer">
+        <div class= "logo_container">
+          <h1>Follow Our Social Media</h1>
+          <a href="https://www.instagram.com/frc.e_sports/">Instagram</a>
+        </div>
+
+        <div class= "footer_third">
+          <!--Empty Space-->
+        </div>
+        <div class= "footer_third">
+          <!--Empty Space-->
+        </div>
+        <div class= "footer_third">
+         
+          <form action="https://formspree.io/f/xbjpzzan" method="POST">
+            <label for="subscribe">Subscribe to our mailing list:</label><br>
+            <input type="email" id="subscribe" name="subscribe" onfocus="this.value=''" value="Email"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
