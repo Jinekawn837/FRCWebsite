@@ -5,7 +5,7 @@ var items = [
     price: 39.99,
     category: 'apparel',
     subcategory: 'hoodie',
-    imageUrl: 'images/FRC Hoodie Angry.jpg'
+    imageUrl: 'FRC Hoodie Angry.jpg'
   },
   {
     name: 'FRC Hoodie Small Logo Angry',
@@ -13,7 +13,7 @@ var items = [
     price: 39.99,
     category: 'apparel',
     subcategory: 'hoodie',
-    imageUrl: 'images/FRC Hoodie Small Logo Angry.jpg'
+    imageUrl: 'FRC Hoodie Small Logo Angry.jpg'
   },
   {
     name: 'FRC Hoodie Small Logo',
@@ -21,7 +21,7 @@ var items = [
     price: 39.99,
     category: 'apparel',
     subcategory: 'hoodie',
-    imageUrl: 'images/FRC Hoodie Small logo.jpg'
+    imageUrl: 'FRC Hoodie Small logo.jpg'
   },
   {
     name: 'FRC Hoodie',
@@ -29,7 +29,7 @@ var items = [
     price: 39.99,
     category: 'apparel',
     subcategory: 'hoodie',
-    imageUrl: 'images/FRC Hoodie.jpg'
+    imageUrl: 'FRC Hoodie.jpg'
   },
   {
     name: 'FRC Mug Angry',
@@ -37,7 +37,7 @@ var items = [
     price: 5.99,
     category: 'merch',
     subcategory: 'merch',
-    imageUrl: 'images/FRC Mug Angry.jpg'
+    imageUrl: 'FRC Mug Angry.jpg'
   },
   {
     name: 'FRC Mug',
@@ -45,7 +45,7 @@ var items = [
     price: 5.99,
     category: 'merch',
     subcategory: 'merch',
-    imageUrl: 'images/FRC Mug.jpg'
+    imageUrl: 'FRC Mug.jpg'
   },
   {
     name: 'FRC Sweater Angry',
@@ -53,7 +53,7 @@ var items = [
     price: 24.99,
     category: 'apparel',
     subcategory: 'sweater',
-    imageUrl: 'images/FRC Sweater Angry.jpg'
+    imageUrl: 'FRC Sweater Angry.jpg'
   },
   {
     name: 'FRC Sweater Logo Angry',
@@ -61,7 +61,7 @@ var items = [
     price: 24.99,
     category: 'apparel',
     subcategory: 'sweater',
-    imageUrl: 'images/FRC Sweater Logo Angry.jpg'
+    imageUrl: 'FRC Sweater Logo Angry.jpg'
   },
   {
     name: 'FRC Sweater Logo',
@@ -69,7 +69,7 @@ var items = [
     price: 24.99,
     category: 'apparel',
     subcategory: 'sweater',
-    imageUrl: 'images/FRC Sweater Logo.jpg'
+    imageUrl: 'FRC Sweater Logo.jpg'
   },
   {
     name: 'FRC Sweater',
@@ -77,7 +77,7 @@ var items = [
     price: 24.99,
     category: 'apparel',
     subcategory: 'sweater',
-    imageUrl: 'images/FRC Sweater.jpg'
+    imageUrl: 'FRC Sweater.jpg'
   },
   {
     name: 'FRC T-shirt Logo Angry',
@@ -85,7 +85,7 @@ var items = [
     price: 19.99,
     category: 'apparel',
     subcategory: 'tshirt',
-    imageUrl: 'images/FRC T-shirt Logo Angry.jpg'
+    imageUrl: 'FRC T-shirt Logo Angry.jpg'
   },
   {
     name: 'FRC T-shirt Logo',
@@ -93,7 +93,7 @@ var items = [
     price: 19.99,
     category: 'apparel',
     subcategory: 'tshirt',
-    imageUrl: 'images/FRC T-shirt Logo.jpg'
+    imageUrl: 'FRC T-shirt Logo.jpg'
   }
 ];
 
